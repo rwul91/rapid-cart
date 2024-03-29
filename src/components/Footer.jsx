@@ -27,15 +27,7 @@ export default function Footer() {
               <IconBrandGithub size={40} />
             </a>
           </motion.li>
-          <motion.li
-            whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
-            whileTap={{ scale: 0.9, transition: { duration: 0.2 } }}
-            transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-          >
-            <a href='https://twitter.com/miguejmdev' rel='_blank'>
-              <IconBrandX size={40} />
-            </a>
-          </motion.li>
+
         </ul>
       </div>
     </footer>
