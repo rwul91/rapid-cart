@@ -1,3 +1,4 @@
+import React from 'react'
 import { Grid } from 'react-loader-spinner'
 import { motion } from 'framer-motion'
 import { useModal } from '../context/ModalProvider'

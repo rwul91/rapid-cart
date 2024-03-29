@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconPlus, IconMinus } from '@tabler/icons-react'
 import { useCart } from '../context/CartProvider'
 

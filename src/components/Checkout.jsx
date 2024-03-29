@@ -1,3 +1,4 @@
+import React from 'react'
 import { useCart } from '../context/CartProvider'
 import { motion } from 'framer-motion'
 import { useModal } from '../context/ModalProvider'

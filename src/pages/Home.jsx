@@ -1,3 +1,4 @@
+import React from 'react'
 import Products from '../components/Products'
 import Categories from '../components/Categories'
 import Hero from '../components/Hero'

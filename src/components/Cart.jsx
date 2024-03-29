@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconShoppingCartOff } from '@tabler/icons-react'
 import { useCart } from '../context/CartProvider'
 import EditButtons from './EditButtons'
@@ -13,12 +14,12 @@ export default function Cart() {
       <h1>Cart</h1>
 
       <ul>
-        {cart.map((item) => {
+        {cart.map((item,index) => {
           const newPrice =
             item.newPrice > item.price ? item.newPrice : item.price
 
           return (
-            <li key={item.id}>
+            <li key={index}>
               <img src={item.thumbnail} alt={item.title} />
               <p>Producto: {item.title}</p>
               <p>Precio Total: {newPrice}</p>

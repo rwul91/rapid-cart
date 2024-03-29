@@ -1,3 +1,4 @@
+import React from 'react'
 import Checkout from '../components/Checkout'
 import CartCard from '../cards/CartCard'
 import NoItems from '../elements/NoItems'
@@ -65,13 +66,13 @@ export default function CartPage() {
 
             <div className='flex flex-wrap lg:flex-nowrap gap-4 my-12'>
               <SwipeableList className='bg-white rounded-xl'>
-                {cart.map((item) => {
+                {cart.map((item,index) => {
                   return (
                     <SwipeableListItem
                       key={item.id}
                       trailingActions={trailingActions(item)}
                     >
-                      <CartCard key={item.id} item={item} />
+                      <CartCard key={index} item={item} />
                     </SwipeableListItem>
                   )
                 })}

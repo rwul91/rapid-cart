@@ -1,3 +1,4 @@
+import React from 'react'
 import { categorys } from '../mocks/categories'
 import { useFilter } from '../context/FilterProvider'
 

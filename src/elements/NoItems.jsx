@@ -1,3 +1,4 @@
+import React from 'react'
 export default function NoItems({ message, img }) {
   return (
     <div className='w-full grid place-content-center'>

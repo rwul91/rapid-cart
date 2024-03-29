@@ -1,3 +1,4 @@
+import React from 'react'
 import { useCart } from '../context/CartProvider'
 import { useFavorite } from '../context/FavoriteProvider'
 import { useModal } from '../context/ModalProvider'

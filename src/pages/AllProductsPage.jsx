@@ -1,3 +1,4 @@
+import React from 'react'
 import { useFilter } from '../context/FilterProvider'
 import { motion } from 'framer-motion'
 import Selector from '../elements/Selector'

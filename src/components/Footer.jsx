@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconHeartFilled, IconBrandGithub, IconBrandX } from '@tabler/icons-react'
 import { motion } from 'framer-motion'
 

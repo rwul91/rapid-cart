@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import React, { createContext, useContext, useEffect, useState } from 'react'
 import { AddedFavProduct, DeleteFavProduct } from '../elements/Toasts'
 import { toast } from 'sonner'
 

@@ -1,3 +1,4 @@
+import React from 'react'
 import { motion } from 'framer-motion'
 import { categorys } from '../mocks/categories'
 import CategoriesCard from '../cards/CategoriesCard'

@@ -1,3 +1,4 @@
+import React from 'react'
 import MenuMobile from '../mobile-components/MenuMobile'
 import {
   IconShoppingBag,

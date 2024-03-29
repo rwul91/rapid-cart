@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconShoppingBag, IconHeart, IconSearch, IconHome, IconCategory } from '@tabler/icons-react'
 import { NavLink } from 'react-router-dom'
 import { motion } from 'framer-motion'

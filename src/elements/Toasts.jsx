@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconHeartFilled, IconTrash, IconCheck } from '@tabler/icons-react'
 
 export function AddedProduct() {

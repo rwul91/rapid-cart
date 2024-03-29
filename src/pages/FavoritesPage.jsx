@@ -1,3 +1,4 @@
+import React from 'react'
 import NoItems from '../elements/NoItems'
 import FavoriteCard from '../cards/FavoriteCard'
 import EmptyFavorites from '../assets/empty-favorites.svg'

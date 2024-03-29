@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconHeartFilled, IconHeart } from '@tabler/icons-react'
 import { motion } from 'framer-motion'
 import { useFavorite } from '../context/FavoriteProvider'

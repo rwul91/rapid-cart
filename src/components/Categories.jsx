@@ -1,3 +1,4 @@
+import React from 'react'
 import CategoriesCard from '../cards/CategoriesCard'
 import { useNavigate } from 'react-router-dom'
 import { categorys } from '../mocks/categories'

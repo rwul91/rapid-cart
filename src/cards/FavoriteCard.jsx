@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconArrowBadgeLeftFilled } from '@tabler/icons-react'
 import { Link } from 'react-router-dom'
 import { useFavorite } from '../context/FavoriteProvider'

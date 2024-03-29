@@ -1,10 +1,11 @@
+import React from 'react'
 import EditButtons from '../components/EditButtons'
 import { Link } from 'react-router-dom'
 
 export default function CartCard({ item }) {
   const NEW_PRICE = item.newPrice > item.price ? item.newPrice : item.price
   return (
-    <article className='w-full' key={item.id}>
+    <article className='w-full'>
       <div className='w-full flex items-center gap-3 md:gap-5 border-b-2 border-black/10 p-4 '>
         <Link className='w-20 h-20 md:w-40 md:h-40' to={`/article/${item.id}`}>
           <img

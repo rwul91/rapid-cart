@@ -1,6 +1,6 @@
 import App from './src/App'
 import './style.css'
-import { StrictMode } from 'react'
+import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { CartProvider } from './src/context/CartProvider'
 import { FilterProvider } from './src/context/FilterProvider'

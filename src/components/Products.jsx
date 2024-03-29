@@ -1,3 +1,4 @@
+import React from 'react'
 import ItemsCard from '../cards/ItemsCard'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'

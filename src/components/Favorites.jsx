@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconTrash } from '@tabler/icons-react'
 import { useFavorite } from '../context/FavoriteProvider'
 
@@ -16,9 +17,9 @@ export default function Favorites() {
       <h1>Favorites</h1>
 
       <ul>
-        {favorite.map((item) => {
+        {favorite.map((item, index) => {
           return (
-            <li key={item.id}>
+            <li key={index}>
               <img src={item.thumbnail} alt={item.title} />
               <p>Producto: {item.title}</p>
               <p>Precio: {item.price}</p>

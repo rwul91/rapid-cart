@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 import CartButton from '../elements/CartButton'
 import FavoriteButton from '../elements/FavoriteButton'
@@ -6,7 +7,6 @@ export default function ProductsCard({ product }) {
   return (
     <li
       className='w-full mx-auto bg-white p-1.5 md:p-4 rounded-xl md:rounded-3xl col-span-1'
-      key={product.id}
     >
       <article className='relative aspect-square md:aspect-auto md:h-[375px]'>
         <Link to={`/article/${product.id}`}>

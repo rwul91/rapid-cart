@@ -1,3 +1,4 @@
+import React from 'react'
 import useData from '../hooks/useData'
 import ItemsCard from '../cards/ItemsCard'
 import Loader from '../elements/Loader'
